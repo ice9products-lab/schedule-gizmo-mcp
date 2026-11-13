@@ -1,0 +1,13 @@
+{
+  "name": "schedule-gizmo",
+  "version": "1.1.0",
+  "description": "Turn any rota, shift pattern, agenda, lineup or planner into a clean one-page schedule to print or share. Writes the schedule, checks it and gives you a view link and an edit link. No account needed.",
+  "author": { "name": "Schedule Gizmo", "email": "team@schedulegizmo.com", "url": "https://schedulegizmo.com" },
+  "homepage": "https://schedulegizmo.com/for-ai/",
+  "repository": "https://github.com/ice9products-lab/schedule-gizmo-mcp",
+  "license": "MIT",
+  "keywords": ["schedule", "rota", "shift schedule", "work schedule", "agenda", "planner", "calendar", "lineup"],
+  "mcpServers": {
+    "schedule-gizmo": { "type": "http", "url": "https://schedulegizmo.com/mcp" }
+  }
+}

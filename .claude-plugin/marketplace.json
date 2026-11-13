@@ -1,0 +1,11 @@
+{
+  "name": "schedule-gizmo",
+  "owner": { "name": "Schedule Gizmo", "email": "team@schedulegizmo.com" },
+  "plugins": [
+    {
+      "name": "schedule-gizmo",
+      "source": "./plugins/schedule-gizmo",
+      "description": "Make clean one-page schedules (rotas, shift patterns, agendas, lineups, planners) with the Schedule Gizmo connector."
+    }
+  ]
+}

@@ -1,0 +1,23 @@
+{
+  "$schema": "https://static.modelcontextprotocol.io/schemas/2025-12-11/server.schema.json",
+  "name": "com.schedulegizmo/schedule-gizmo",
+  "title": "Schedule Gizmo",
+  "description": "Turn plain text into one-page schedules: staff rotas, shift patterns, agendas and lineups.",
+  "version": "1.1.0",
+  "websiteUrl": "https://schedulegizmo.com/for-ai/",
+  "icons": [
+    {
+      "src": "https://schedulegizmo.com/favicon.svg",
+      "mimeType": "image/svg+xml",
+      "sizes": [
+        "any"
+      ]
+    }
+  ],
+  "remotes": [
+    {
+      "type": "streamable-http",
+      "url": "https://schedulegizmo.com/mcp"
+    }
+  ]
+}
